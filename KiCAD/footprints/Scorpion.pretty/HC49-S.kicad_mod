@@ -1,0 +1,177 @@
+(footprint "HC49-S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HC-49/U, Crystal, http://5hertz.com/pdfs/04404_D.pdf")
+	(property "Reference" "REF**"
+		(at 2.594 -1.397 180)
+		(layer "F.SilkS")
+		(uuid "8ac46375-37d4-4077-88b2-eb55510adc51")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "14MHz"
+		(at 2.34 4.953 180)
+		(layer "F.SilkS")
+		(uuid "ba2e4af5-baec-45f9-b4a9-8dcc6b86a3cb")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a108716d-ad2a-415b-b51d-6a9cf8ba9615")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Кварцевый резонатор"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56bd3c80-7f2a-4ed0-b731-d017fd0f602b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -2.286)
+		(end 5.08 -2.286)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "598ae1bd-5fb5-4093-bb6b-9ee0729609a5")
+	)
+	(fp_line
+		(start 0 2.286)
+		(end 5.08 2.286)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1a9967d4-310b-4b70-b2e0-1d4424bb2927")
+	)
+	(fp_arc
+		(start 0 2.286)
+		(mid -2.286 0)
+		(end 0 -2.286)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2484dcf0-92e4-41f1-82cc-4e9b9c0ab1bd")
+	)
+	(fp_arc
+		(start 5.08 -2.286)
+		(mid 7.366 0)
+		(end 5.08 2.286)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e60d6f2f-1238-4228-9f2e-a61466dbc791")
+	)
+	(fp_line
+		(start 5.08 -2.286)
+		(end 0 -2.286)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "921500d0-07bf-4208-963c-6f5c25fb0117")
+	)
+	(fp_line
+		(start 5.08 2.286)
+		(end 0 2.286)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a3429e6-e5a1-483b-9dc0-ffbecf3bca1d")
+	)
+	(fp_arc
+		(start 0 2.286)
+		(mid -2.286 0)
+		(end 0 -2.286)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a94536d-4b2f-412a-a97e-0af6e7d2ea36")
+	)
+	(fp_arc
+		(start 5.08 -2.286)
+		(mid 7.366 0)
+		(end 5.08 2.286)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cfe2db5-92f5-4d4a-8d31-fcecb284d6da")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 180)
+		(layer "F.Fab")
+		(uuid "dcb98310-6afc-4e97-807a-171acd5c6d3f")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0633e719-8896-49d9-9d30-ec4973d40c17")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "076186c5-0ddc-40dc-816f-6e7fd5afc432")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3RD_PARTY}/HC-49S.step"
+		(offset
+			(xyz 2.54 0 0.254)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

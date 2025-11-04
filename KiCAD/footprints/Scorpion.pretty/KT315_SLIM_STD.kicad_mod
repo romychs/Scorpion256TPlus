@@ -1,0 +1,261 @@
+(footprint "KT315_SLIM_STD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4 -0.409 180)
+		(layer "F.SilkS")
+		(uuid "096b667b-53f4-468f-b435-38e7c8da471c")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left top)
+		)
+	)
+	(property "Value" "КТ315Б"
+		(at -2.54 -2.4892 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d8f0dd80-4574-4627-a3ee-edb40d58525d")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "552d3e87-8864-492a-9560-e5463866007d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Биполярный транзистор малой мощности"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fa4c99e-cdda-4ec0-833e-49073739d413")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel" "4e458c2857b847c983e65719763eb26c"
+		(at 0 0 180)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "d4fae169-ade8-4bf8-a20f-cc20f1dd2989")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "5.54 3.7"
+		(at 0 0 180)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "13710cf8-e420-4f40-a06d-30260ff8003d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.4981 1.3462)
+		(end -3.49795 -1.3208)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d59646b2-bba7-4384-b156-ccf7bb134f6c")
+	)
+	(fp_line
+		(start -3.49795 -1.3208)
+		(end 3.49795 -1.3208)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0df4efa-eb9d-431f-9354-d990d8024e5a")
+	)
+	(fp_line
+		(start 3.4798 0.9652)
+		(end -3.4798 0.9652)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "65d45772-a5d1-444b-bec9-eb0a1b5b4966")
+	)
+	(fp_line
+		(start 3.4978 1.3462)
+		(end -3.4981 1.3462)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0262f20c-fa02-4aa4-88e5-70c7cf480195")
+	)
+	(fp_line
+		(start 3.49795 -1.3208)
+		(end 3.4978 1.3462)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32035375-c81a-4345-ada9-599f92fd6eea")
+	)
+	(pad "1" thru_hole rect
+		(at 2.54 0 270)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "25be11ca-e594-44fc-8adc-b8d0608f7a24")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 270)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "bf92205a-54cd-4e5b-9798-0e677e09dba4")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 0 270)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "1ce551b7-b9eb-4d08-af6d-a1abaa5b2fa2")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "User.4")
+		(uuid "d0ddef36-ea85-4579-8a44-d63ad8ec94b5")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.29 0.2) (xy -2.79 0.2) (xy -2.79 -0.2) (xy -2.29 -0.2)
+			)
+		)
+		(filled_polygon
+			(layer "User.4")
+			(island)
+			(pts
+				(xy -2.29 0.2) (xy -2.79 0.2) (xy -2.79 -0.2) (xy -2.29 -0.2)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "User.4")
+		(uuid "2c23cbf8-1e3f-488a-81ab-b6e437d69cf7")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.25 0.2) (xy -0.25 0.2) (xy -0.25 -0.2) (xy 0.25 -0.2)
+			)
+		)
+		(filled_polygon
+			(layer "User.4")
+			(island)
+			(pts
+				(xy 0.25 0.2) (xy -0.25 0.2) (xy -0.25 -0.2) (xy 0.25 -0.2)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "User.4")
+		(uuid "2f3fab7d-1ab8-44ed-a03b-808b883f5b97")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2.79 0.2) (xy 2.29 0.2) (xy 2.29 -0.2) (xy 2.79 -0.2)
+			)
+		)
+		(filled_polygon
+			(layer "User.4")
+			(island)
+			(pts
+				(xy 2.79 0.2) (xy 2.29 0.2) (xy 2.29 -0.2) (xy 2.79 -0.2)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3RD_PARTY}/BJT-KT3.step"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

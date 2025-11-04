@@ -1,0 +1,146 @@
+(footprint "CAP-TH_L5.08"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.5786 -0.0254 270)
+		(layer "F.SilkS")
+		(uuid "b03a92b4-2539-4d8a-8a71-1c22c81e7dd1")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "0.1u"
+		(at 2.54 0 0)
+		(layer "F.SilkS")
+		(uuid "21a1f9d3-6d54-4b77-b256-304f62c40515")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6db0526e-6a3a-4f6b-822a-9fd1143e495b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Конденсатор керамический"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65b53555-0b15-49c3-9c00-f4a2f07fe7b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0.635 -1.016)
+		(end 0.635 -0.635)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b5020500-4505-4356-8b2d-a66c6933138a")
+	)
+	(fp_line
+		(start 0.635 -1.016)
+		(end 4.318 -1.016)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "24f12c16-e4b4-49cd-a9b1-ca2eadcf8c08")
+	)
+	(fp_line
+		(start 0.635 1.016)
+		(end 0.635 0.635)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9372ab69-3f6a-4976-81f7-d384a63c1dac")
+	)
+	(fp_line
+		(start 4.318 -1.016)
+		(end 4.318 -0.635)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cb52d16f-ce4c-44dd-baf3-3fda1ef3a7ab")
+	)
+	(fp_line
+		(start 4.318 0.635)
+		(end 4.318 1.016)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9c2f7473-23cf-4be1-af35-49908f51dc3d")
+	)
+	(fp_line
+		(start 4.318 1.016)
+		(end 0.635 1.016)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35116c6d-8569-4b52-b367-2a1a7a8644aa")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "e9ddfd36-5715-43de-8e18-38c8e8980970")
+	)
+	(pad "2" thru_hole oval
+		(at 5.08 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "c4c1b3cf-854d-4c15-8fc0-7950fd9e22d3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3RD_PARTY}/CAP_MKT_2.4x6.5x7.step"
+		(offset
+			(xyz 2.54 0 -0.00254)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

@@ -1,0 +1,290 @@
+(footprint "R_Array_SIP9"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "9-pin Resistor SIP pack")
+	(tags "R")
+	(property "Reference" "REF**"
+		(at 11.43 -2.31 180)
+		(layer "F.SilkS")
+		(uuid "23c2671d-e6c1-40d9-b472-ebf208ff2513")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "НР-8 3к3-10к"
+		(at 11.43 2.31 180)
+		(layer "F.Fab")
+		(uuid "ef402cfa-d2f3-449a-a0c4-27da9fd1e753")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d94a35c-cdac-4fe4-921e-ae150a8f9a0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Набор из 8 резисторов с общим выводом, шаг 2,54мм"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c524696f-7346-4622-b2d5-ec598e83f800")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.35 -1.31)
+		(end -1.35 1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e6a90f7-26dc-4a2c-9342-a97b9ce53f05")
+	)
+	(fp_line
+		(start -1.35 1.31)
+		(end 21.67 1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "477ef281-752c-4e13-b3ca-6cdd8ad26ceb")
+	)
+	(fp_line
+		(start 1.27 -1.31)
+		(end 1.27 1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e40dd8eb-578d-4022-b62f-7e41dbb83a20")
+	)
+	(fp_line
+		(start 21.67 -1.31)
+		(end -1.35 -1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea0c9a52-28e9-401e-be5a-95c9dc0f90a2")
+	)
+	(fp_line
+		(start 21.67 1.31)
+		(end 21.67 -1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbeb8728-36fa-455a-a2f5-1f5af8fd68aa")
+	)
+	(fp_line
+		(start -1.6 -1.56)
+		(end -1.6 1.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4694a3b-aa0a-4b39-9dcf-acf6bbdacba4")
+	)
+	(fp_line
+		(start -1.6 1.56)
+		(end 21.92 1.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "65507c02-4b6c-48df-9798-86d88e0576bb")
+	)
+	(fp_line
+		(start 21.92 -1.56)
+		(end -1.6 -1.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5bb7fa3f-707f-4140-821a-65897fba2445")
+	)
+	(fp_line
+		(start 21.92 1.56)
+		(end 21.92 -1.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec8bff27-3351-4f57-b4a6-b308596dad7b")
+	)
+	(fp_line
+		(start -1.29 -1.25)
+		(end -1.29 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "895b419c-9b06-4fb5-9448-1bb99aeb86c7")
+	)
+	(fp_line
+		(start -1.29 1.25)
+		(end 21.61 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "554e56f8-17f7-43e4-a346-9ba0fbb6c11f")
+	)
+	(fp_line
+		(start 1.27 -1.25)
+		(end 1.27 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8281e430-87a8-457f-88db-26cc64caf955")
+	)
+	(fp_line
+		(start 21.61 -1.25)
+		(end -1.29 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36c9a790-a20e-42f4-ac23-faff3897259c")
+	)
+	(fp_line
+		(start 21.61 1.25)
+		(end 21.61 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "190b39a4-7bf0-4091-adfc-9a37183d5f8f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 11.43 0 180)
+		(layer "F.Fab")
+		(uuid "a1507ad0-5ce8-4e9f-8887-62657b00e17b")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "563e6865-0b21-47d5-a4e3-804ddb495f61")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16f7600d-2e41-4a98-bb2b-6758b8e1e1d1")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48abbff2-ae16-4bdb-b081-d0cca078e442")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bef8523c-a18c-4c45-9647-c1065edae233")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2edce0c7-6aef-4db5-9740-33bcd6a53724")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26717943-784a-47f2-b4c4-b6f3c330c57b")
+	)
+	(pad "7" thru_hole circle
+		(at 15.24 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7294dc9-6c25-4b50-a7c7-3db03bdb6514")
+	)
+	(pad "8" thru_hole circle
+		(at 17.78 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f80bf9f7-acb7-45d3-a676-f7ca2d14cf04")
+	)
+	(pad "9" thru_hole circle
+		(at 20.32 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67a07031-be50-47d2-bcbc-3859dbdfab8f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Array_SIP9.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

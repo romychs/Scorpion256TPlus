@@ -1,0 +1,150 @@
+(footprint "HDR-2P-M-P2.54"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.353 -1.529 180)
+		(layer "F.SilkS")
+		(uuid "5c66bc94-baef-47e4-8903-86393405ace2")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify top)
+		)
+	)
+	(property "Value" "TURBO"
+		(at -2.7712 0.9348 180)
+		(layer "F.SilkS")
+		(uuid "e7ef8412-8465-4b35-a053-0aab3b86ae94")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9d3e53b-b36c-4eab-aeff-c9472d865dd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Штырьковый разъем 2 пина, папа, 2,54мм"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01743f52-55e2-4069-bb38-da324a01a6e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.54 -1.27)
+		(end 2.54 -1.27)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c10b2e5c-3297-408e-a70b-61a1685fa814")
+	)
+	(fp_line
+		(start -2.54 1.2446)
+		(end -2.54 -1.27)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5960e520-6908-45cf-aac3-5c12cf8f6fb1")
+	)
+	(fp_line
+		(start 2.54 -1.27)
+		(end 2.54 1.2446)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0570f8e2-07e7-417a-9a27-f4bcc64ac197")
+	)
+	(fp_line
+		(start 2.54 1.2446)
+		(end -2.54 1.2446)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5fc919a9-5d62-4408-9834-2366672ce749")
+	)
+	(fp_rect
+		(start -2.3074 1.0374)
+		(end 2.3074 -1.0374)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a9cc0477-7452-48f9-aa9a-b47faa13d616")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "cf98b347-bf41-4907-a5dc-f3b08c893f65")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0 270)
+		(size 1.5748 1.5748)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "8dfc9d41-aea8-4891-b7e3-b7f06116eb9b")
+	)
+	(pad "2" thru_hole oval
+		(at 1.27 0 270)
+		(size 1.5748 1.5748)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "58e81997-a33f-48f8-ae13-7d4759a5d3e8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz -1.27 0 0.127)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

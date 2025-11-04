@@ -1,0 +1,220 @@
+(footprint "DIODE-TH_P10.16"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 7.2848 0.9678 180)
+		(layer "F.SilkS")
+		(uuid "a0e6e6a4-aca9-44c1-97f6-357ed7e52c86")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "1N4148"
+		(at 3.043 2.1362 180)
+		(layer "F.SilkS")
+		(uuid "2dc03121-8afb-4f84-ade7-7acfc83c0b5b")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e027de35-bff7-4bdb-aaae-f1855e92b27c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Маломощный кремниевый импульсный диод 100В 150мА"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70b76077-6ef4-4cf1-b470-f14e531249f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 1.27 0)
+		(end 2.921 0)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1abd96a7-d11f-46e3-a99a-ce3093e94ec8")
+	)
+	(fp_line
+		(start 2.921 -0.762)
+		(end 6.477 -0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bf6f169a-4c3c-4b74-bca0-71319b543cc8")
+	)
+	(fp_line
+		(start 2.921 0)
+		(end 2.921 -0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f7127364-f4a5-4a4d-a977-5dd1561401a1")
+	)
+	(fp_line
+		(start 2.921 0.762)
+		(end 2.921 0)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "81389e46-8f4f-443b-91cd-f16cf780dfe9")
+	)
+	(fp_line
+		(start 6.477 -0.762)
+		(end 6.477 0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a0f103e6-dbf2-441b-a8e6-08f9251994e6")
+	)
+	(fp_line
+		(start 6.477 -0.762)
+		(end 7.239 -0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b5ba6a1f-2a0a-4c1b-a486-aaa53e6b31f7")
+	)
+	(fp_line
+		(start 6.477 0.762)
+		(end 2.921 0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "180a1566-b01c-405b-8039-c4710cf198be")
+	)
+	(fp_line
+		(start 7.239 -0.762)
+		(end 7.239 0)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08690973-946f-4218-8d77-17f25d7a4674")
+	)
+	(fp_line
+		(start 7.239 0)
+		(end 7.239 0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7c715ac9-2967-462b-89fb-b965c4750db4")
+	)
+	(fp_line
+		(start 7.239 0)
+		(end 9.017 0)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1a1fb3ef-3ef6-4599-8705-0de7d0a67e2d")
+	)
+	(fp_line
+		(start 7.239 0.762)
+		(end 6.477 0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6ba03cbe-3b07-4452-aae9-48f1312e4a84")
+	)
+	(fp_rect
+		(start 11.16 1)
+		(end -1 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7b98cb3b-5e09-4708-b0ad-374ced97aa9e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "6385066a-99d0-4611-af6c-829fe02039c7")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "ee417d30-e04a-49d6-972a-969b047a044c")
+	)
+	(pad "2" thru_hole oval
+		(at 10.16 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "8d21f682-dad1-4f60-9993-55a62f52c726")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.step"
+		(offset
+			(xyz 0 0 -0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

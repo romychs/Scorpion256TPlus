@@ -1,0 +1,243 @@
+(footprint "DIODE_TH_7.62"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.064 0 0)
+		(layer "F.SilkS")
+		(uuid "831b46d7-8447-4355-9f36-4ec85ea5573c")
+		(effects
+			(font
+				(size 0.8636 0.8636)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "1N4148"
+		(at 3.81 -1.524 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a10bc77b-0eec-411f-837e-b9611c50b63e")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4023ed5c-efc8-4342-b0bc-18c93bf0060d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Маломощный кремниевый импульсный диод 100В 150мА"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b79eaac0-3bfc-451c-956a-69b22789aff5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel" "982e0246bc4b4bfd9b52595e27e599f0"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "bf7c0b55-2df5-4b80-a44d-a57ba27a626e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "12 2.101"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "6cf78cba-d4b5-4a69-bf5f-9ea0938b8a2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0.889 0)
+		(end 1.778 0)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e3824730-b018-4411-9f9d-35d0ced87692")
+	)
+	(fp_line
+		(start 1.778 -0.762)
+		(end 5.08 -0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "efe9df49-a77b-47b7-a6a3-8c7daebac33e")
+	)
+	(fp_line
+		(start 1.778 0)
+		(end 1.778 -0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9c05634a-c863-4324-9f46-a97f33d68f6a")
+	)
+	(fp_line
+		(start 1.778 0.762)
+		(end 1.778 0)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "28daa519-e847-4067-aad2-ea96411b0dae")
+	)
+	(fp_line
+		(start 2.286 -0.762)
+		(end 2.286 0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0dbe4e81-29ce-49d6-b118-bdc55375e415")
+	)
+	(fp_line
+		(start 5.08 -0.762)
+		(end 5.842 -0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3cbe2eab-bf9d-4115-9e43-e9e0cdb481ec")
+	)
+	(fp_line
+		(start 5.08 0.762)
+		(end 1.778 0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "44b0adfe-bd40-4b8f-a03d-b66400e27f3d")
+	)
+	(fp_line
+		(start 5.842 -0.762)
+		(end 5.842 0)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bcdb78da-cda8-4dd7-b5d6-5f60aee2dcaa")
+	)
+	(fp_line
+		(start 5.842 0)
+		(end 5.842 0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8a5f690f-d6cb-4cf2-be72-534065a42075")
+	)
+	(fp_line
+		(start 5.842 0)
+		(end 6.731 0)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6ff7af6b-7e76-4f08-b855-75f09597159e")
+	)
+	(fp_line
+		(start 5.842 0.762)
+		(end 5.08 0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7453961-3fd7-47bc-8775-2d27aef750b9")
+	)
+	(fp_rect
+		(start -0.762 -0.889)
+		(end 8.382 0.889)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d2aef123-85c2-47bd-9986-98e9a6659c38")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "2f3c8ad1-8732-4c5f-a2de-653f04ad8fa9")
+	)
+	(pad "2" thru_hole oval
+		(at 7.62 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "9dcb4461-b10e-4a18-aeae-664a9eb35a27")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/DO-35_BD2.2-L4.0-D0.50_1N4148.step"
+		(offset
+			(xyz -3.8 -0 -4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-34_SOD68_P7.62mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

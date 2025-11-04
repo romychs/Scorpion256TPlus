@@ -1,0 +1,268 @@
+(footprint "RES_0.125W_P7.62"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "RESISTOR")
+	(property "Reference" "REF**"
+		(at 7.239 -1.8288 180)
+		(layer "F.SilkS")
+		(uuid "34804d60-c4ab-44b6-bddb-405010fc49e1")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.127)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "1K5"
+		(at 3.81 0 180)
+		(layer "F.SilkS")
+		(uuid "4691338b-970d-457a-97ad-d4afa1cce669")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "498b0633-96fe-4f58-9bdf-e3c810c1fb19")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Резистор выводной, мощностью 0.125Вт"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94dfe0ba-bb8a-4c5b-ba5f-f4aff31283a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0.889 0)
+		(end 1.905 0)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "084160c2-00d2-487d-a46e-48c683073519")
+	)
+	(fp_line
+		(start 1.905 -0.762)
+		(end 5.715 -0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fa3a67a3-ec67-4728-85cc-4da3a7e80cce")
+	)
+	(fp_line
+		(start 1.905 0.762)
+		(end 1.905 -0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dbe7af6b-83ba-4d7b-8187-c264ea45f2b3")
+	)
+	(fp_line
+		(start 5.715 -0.762)
+		(end 5.715 0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d7857e7-9924-471f-9f64-5203060d759d")
+	)
+	(fp_line
+		(start 5.715 0.762)
+		(end 1.905 0.762)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "77e7cdf1-50a2-4f34-a883-1bddda493b36")
+	)
+	(fp_line
+		(start 6.731 0)
+		(end 5.715 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2102dd9-bffa-4526-ade5-2ecdd78dee9b")
+	)
+	(fp_line
+		(start 0 -0.127)
+		(end 0 0.127)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a0bb84a0-940a-49c7-a757-c734ca9dd618")
+	)
+	(fp_line
+		(start 0 0.127)
+		(end 1.905 0.127)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a52fc099-21cb-417c-839c-2f1c37e27d29")
+	)
+	(fp_line
+		(start 1.905 -0.762)
+		(end 1.905 -0.127)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "01c489f0-6582-4194-b255-72eb5a288dc0")
+	)
+	(fp_line
+		(start 1.905 -0.127)
+		(end 0 -0.127)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2828807d-9b98-4cf2-a747-ad9232711c28")
+	)
+	(fp_line
+		(start 1.905 0.127)
+		(end 1.905 0.762)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "47fbdd34-0e20-4505-bb8c-efa6f0af88b0")
+	)
+	(fp_line
+		(start 1.905 0.762)
+		(end 5.715 0.762)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4d46937-392b-444e-9f30-d047d2aeca34")
+	)
+	(fp_line
+		(start 5.715 -0.762)
+		(end 1.905 -0.762)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d21a3df6-114d-4707-b6e4-b41d61954471")
+	)
+	(fp_line
+		(start 5.715 -0.127)
+		(end 5.715 -0.762)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5103877-fbe0-4aec-b187-f9d5702293ec")
+	)
+	(fp_line
+		(start 5.715 0.127)
+		(end 7.62 0.127)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "976b3447-1ac0-4bae-81a2-b4a4b97b0ca2")
+	)
+	(fp_line
+		(start 5.715 0.762)
+		(end 5.715 0.127)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "23e69252-4da1-4191-af18-b037a64af1da")
+	)
+	(fp_line
+		(start 7.62 -0.127)
+		(end 5.715 -0.127)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b734a303-a850-41d1-a78c-67ae92aed0f2")
+	)
+	(fp_line
+		(start 7.62 0.127)
+		(end 7.62 -0.127)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f58ca81a-223c-4407-8d97-d84a02aa49c2")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "ec3c9c71-c1db-437b-8680-a2e80df3440d")
+	)
+	(pad "2" thru_hole oval
+		(at 7.62 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "6dc55413-63c0-439b-b375-ed6dea727565")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.step"
+		(offset
+			(xyz 0.0100000054 0 0.254)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
